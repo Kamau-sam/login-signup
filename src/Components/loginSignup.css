@@ -1,0 +1,136 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5b3c7;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #dcae1d;
+  border-radius: 8px;
+}
+
+.header .text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .underline {
+  height: 2px;
+  background-color: #28f0f7;
+  width: 100%;
+}
+
+.inputs .input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inputs .input img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.inputs input[type="text"],
+.inputs input[type="email"],
+.inputs input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.header .text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #064042;
+}
+
+.header .underline {
+  height: 2px;
+  background-color: #ff0303;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inputs .input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inputs .input img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.inputs input[type="text"],
+.inputs input[type="email"],
+.inputs input[type="password"] {
+  width: calc(100% - 34px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.inputs input[type="text"]:hover,
+.inputs input[type="email"]:hover,
+.inputs input[type="password"]:hover {
+  border-color: #007bff;
+  background-color: #e1fce2;
+}
+
+.forgot-password {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.forgot-password span {
+  color: rgb(53, 0, 245);
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit {
+  padding: 10px 20px;
+  background-color: #2e31f7;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit:hover {
+  background-color: #0054b3;
+}
+.gray {
+  background: #ccc;
+  color: #676767;
+}
